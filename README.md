@@ -4,25 +4,25 @@ QM9 is a dataset containing quantum chemical properties (at DFT level) for a rel
 
 The dataset contains 134000 molecules with up to 9 heavy atoms. It contains the structure information (SMILES), and additionally the following features:
 
-Property	Unit	Description
-tag	-	gdb9; string constant to ease extraction via grep
-index	-	Consecutive, 1-based integer identifier of molecule
-A	GHz	Rotational constant A
-B	GHz	Rotational constant B
-C	GHz	Rotational constant C
-mu	Debye	Dipole moment
-alpha	Bohr^3	Isotropic polarizability
-homo	Hartree	Energy of Highest occupied molecular orbital (HOMO)
-lumo	Hartree	Energy of Lowest occupied molecular orbital (LUMO)
-gap	Hartree	Gap, difference between LUMO and HOMO
-r2	Bohr^2	Electronic spatial extent
-zpve	Hartree	Zero point vibrational energy
-U0	Hartree	Internal energy at 0 K
-U	Hartree	Internal energy at 298.15 K
-H	Hartree	Enthalpy at 298.15 K
-G	Hartree	Free energy at 298.15 K
-Cv	cal/(mol K)	Heat capacity at 298.15 K
-
+| **Property** | **Unit**         | **Description**                                            |
+|--------------|------------------|------------------------------------------------------------|
+| tag          | -                | gdb9; string constant to ease extraction via grep          |
+| index        | -                | Consecutive, 1-based integer identifier of molecule        |
+| A            | GHz              | Rotational constant A                                      |
+| B            | GHz              | Rotational constant B                                      |
+| C            | GHz              | Rotational constant C                                      |
+| mu           | Debye            | Dipole moment                                              |
+| alpha        | Bohr^3           | Isotropic polarizability                                   |
+| homo         | Hartree          | Energy of Highest occupied molecular orbital (HOMO)        |
+| lumo         | Hartree          | Energy of Lowest occupied molecular orbital (LUMO)         |
+| gap          | Hartree          | Gap, difference between LUMO and HOMO                      |
+| r2           | Bohr^2           | Electronic spatial extent                                  |
+| zpve         | Hartree          | Zero point vibrational energy                              |
+| U0           | Hartree          | Internal energy at 0 K                                     |
+| U            | Hartree          | Internal energy at 298.15 K                                |
+| H            | Hartree          | Enthalpy at 298.15 K                                       |
+| G            | Hartree          | Free energy at 298.15 K                                    |
+| Cv           | cal/(mol K)      | Heat capacity at 298.15 K                                  |
 
 
 My objective was to analyse the dataset in different ways and to train a neural network model for predicting any 3 properties using the other remaining properties. 
