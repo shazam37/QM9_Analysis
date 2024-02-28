@@ -6,8 +6,8 @@ The dataset contains 134000 molecules with up to 9 heavy atoms. It contains the 
 
 | **Property** | **Unit**         | **Description**                                            |
 |--------------|------------------|------------------------------------------------------------|
-| tag          | -                | gdb9; string constant to ease extraction via grep          |
-| index        | -                | Consecutive, 1-based integer identifier of molecule        |
+| tag          | -                | string constant to ease extraction via grep          |
+| index        | -                | 1-based integer identifier of molecule        |
 | A            | GHz              | Rotational constant A                                      |
 | B            | GHz              | Rotational constant B                                      |
 | C            | GHz              | Rotational constant C                                      |
